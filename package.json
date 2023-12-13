@@ -1,0 +1,12 @@
+{
+    "name": "com.rubix.unity.android.visualstudio.agde",
+    "displayName": "AGDE Visual Studio Extension for Unity",
+    "version": "0.0.1",
+    "unity": "2021.3",
+    "author": "Rubix",
+    "documentationUrl": "https://github.com/Rubix1991/com.rubix.unity.android.visualstudio.agde/blob/main/README.md",
+    "description": "Generates Visual Studio AGDE solution when exporting Android's gradle project, read more about Visual Studio AGDE <a href=\"https://developer.android.com/games/agde\">here</a>.<br>Settings can be found under Preferences->Android->Rubix AGDE Visual Studio Extension.",
+    "keywords": ["Mobile", "Android", "VisualStudio", "AGDE"],
+    "dependencies": {
+    }
+}
