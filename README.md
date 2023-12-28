@@ -43,6 +43,6 @@ The settings can be found under Preferences->Android->Rubix AGDE Visual Studio E
 
 * The actual solution/project is generated in <exported_folder>/VisualStudioAGDE
 * If you pick multiple target architectures for scripting backend il2cpp, it doesn't matter what Visual Studio solution platform you'll pick (Android-armeabi-v7a or Android-arm64-v8a):
-    * gradle will still build all for all architectures
+    * gradle will still build all architectures
     * when running the app, the most compatible ABI will picked, for ex., if you have Android-armeabi-v7a, but had ARMv7 and ARM64 selected in Unity's player settings, when the app is ran arm64-v8a might be picked for your phone, since it was most compatible one.
     * thus if you want to explicitly target one architecture, you need to pick one architecture in Unity's Player Settings.
