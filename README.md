@@ -46,3 +46,6 @@ The settings can be found under Preferences->Android->Rubix AGDE Visual Studio E
     * gradle will still build all architectures
     * when running the app, the most compatible ABI will picked, for ex., if you have Android-armeabi-v7a, but had ARMv7 and ARM64 selected in Unity's player settings, when the app is ran arm64-v8a might be picked for your phone, since it was most compatible one.
     * thus if you want to explicitly target one architecture, you need to pick one architecture in Unity's Player Settings.
+* The C++ code is compiled with:
+    * il2cpp cpp files - with il2cpp tool which under the hood invokes clang from NDK
+    * GameActivity cpp files - with cmake
